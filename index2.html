@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Registration form</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body class="mainbody">
+  <h2 class="heading">REGISTRATION FORM</h2>
+  <div class="forms">
+    <form>
+      <label class="namebox"
+        for="name">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" name="name" id="name" placeholder="Enter your name"><br>
+
+      <p class="gender">
+        Sex:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </P>
+      <div class="genderbutton">
+        <input type="radio" name="sex" value="male" id="option-1">
+        <label for="option-1">Male</label>
+        <input type="radio" name="sex" value="Female" id="option-2">
+        <label for="option-2">Female</label>
+      </div class="genderButton">
+      <label class="agebox"
+        for="age">Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <div class="agebox1">
+        <input type="number" name="age" id="age" placeholder="Enter your age"> <br><br>
+      </div>
+
+      <div class="websitebox">
+        <label for="web">Website</label>
+      </div>
+      <div class="websitebox1">
+        <input type="text" name="website" id="web" placeholder="Enter Website address">
+      </div>
+      <br><br>
+
+      <div class="qualificationbox">
+        <label for="question">Qualification:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      </div>
+      <div class="qualificationselector">
+        <select name="question" id="question">
+          <option value="q1">SSLC</option>
+          <option value="q2">Plus Two</option>
+          <option value="q3">Under Graduate</option>
+          <option value="q4">Post Graduate</option>
+        </select> <br><br>
+      </div>
+
+      <div class="email">
+        <label for="email">E-mail:</label>
+      </div>
+      <div class="emailbox">
+        <input type="email" id="email" name="email" placeholder="Enter your e-mail id"> <br><br>
+      </div>
+
+      <div class="addressbox">
+        <label for="text">Address:</label>
+      </div>
+      <div class="textarea">
+        <textarea name="remarks" id="text" rows="10" cols="22" placeholder="Remarks........"></textarea>
+      </div>
+      <input class="submitbtn" type="submit" value="Submit the form" id="submit">
+    </form>
+    <div class="bottomBoxes">
+      <div class="box1">
+        <p>Cascading Style Sheets (CSS) is a style sheet language used fordescribing the presentation ofa document
+          written
+          in a markup language like HTML.
+          CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+      </div>
+
+      <div class="box2">
+        <p>JavaScript often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.
+          JavaScript is high-level, often just-in-time compiled, and multi-paradigm.</p>
+      </div>
+
+      <div class="box3">
+        <br>
+        <label class="primarycolor">Primary Colors</label><br><br>
+        <ul>
+          <li class="red">Red</li><br>
+          <li class="green">Green</li><br>
+          <li class="blue">Blue</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
