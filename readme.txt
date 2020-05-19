@@ -1,7 +1,3 @@
-new repo for pushing html css projects
-
-Video tutorial notes.
-
 Video -1
 
 1. HTML is a mark up language - note a pgming language
@@ -9,7 +5,7 @@ Video -1
 3. <a> </a>, <p> </p>
 4. CSS - cascading style sheets - style web page
 5. css- changes position, colors, effcets, font size.
-6. install live server extensio -- from extensions in s code.
+6. install live server extension -- from extensions in vs code.
 
 video -2 
 
@@ -57,3 +53,53 @@ video - 5
 4. begins with #
 5. to cutoom an anchor tag - a[href="link"] { rules}
 6. inheritance : inherited from parrent - can use "inherit" like margin: inherit (inherits margin from parrent)
+ 
+video - 6
+
+1. HTML - 5 semantic tags - makes code meaningful 
+2. <main> for the content of web page
+3. <section> - defines a certain section (blog, contact)
+4. <article>- eg. blog post
+5. <aside> content related to an article-placed aside
+6. <header> -nav, title,<footer> -footer of website.
+
+video -7 
+
+1. chrome developer tools - debug website, inspect elements
+2. inspect - elements - outline of document- edit attributes, delete attributes
+3. can edit and test in chrome inspect.
+4. sources tab - tree of files in the project
+5. preview- the work on different devices using the phonebutton.
+
+video - 8
+
+positon and layout
+
+1.  position - static, relative, absolute, fixed, sticky
+2. static - default. can be used in resettingthe position.
+3. Relative - shift the position relative to its original position.
+4. fixed - An element with position fixed; is positioned relative to the viewport.
+5. absolute - position absolutely relative to its closest parrent.
+6. sticky -  mixture of static and sticky
+7. 13:17 - font size in em
+8. 17:02 - z-index
+9. 22:05 - white space no wrap
+10. 22:44 margin auto
+11. 24: 33 sticky
+12. 36:08 forms field modification.
+
+video - 9
+
+pseudo classes , pseudo elements
+
+1. used to target difeerent states of an element in the code eg. hover, focus, first child
+2. eg. nav li a:hover {}, 02:55 , img hover { postion: relative
+					      top : 4px;}
+3. focus----- 06:00,  :focus
+4. valid , 07:45     eg. form input:valid { border }
+5. first child --means fisrt li inside nav --09:00 eg: nav li:firstchild {attributes}
+6. pseudo elemenst 12:07 eg: article p::first-line {}
+7. article p::first-letter {}
+8. p::selection { background-color:red}  14:30
+9. p::after { content: '...'}  15:25
+
