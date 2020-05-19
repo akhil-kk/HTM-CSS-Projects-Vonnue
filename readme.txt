@@ -101,29 +101,5 @@ pseudo classes , pseudo elements
 6. pseudo elemenst 12:07 eg: article p::first-line {}
 7. article p::first-letter {}
 8. p::selection { background-color:red}  14:30
-9. p::afetr { content: '...'}  15:25
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+9. p::after { content: '...'}  15:25
 

@@ -1,0 +1,78 @@
+.heading {
+  border: 1px solid black;
+  background-color: lightgrey;
+  padding: 15px;
+  text-align: center;
+  margin-left: 237px;
+  margin-right: 215px;
+  margin-bottom: 5px;
+  
+}
+.anchors {
+  display: inline-block;
+  width: 159px;
+  margin-left: 15px;
+  margin-top: 5px;
+  border: 1px solid red;
+  text-align: center;
+  background-color: lightgray;
+}
+
+.main {
+  text-align: center;
+}
+
+.subhead {
+  border: 2px solid skyblue;
+  background-color: lightblue;
+  text-align: center;
+  margin-left: 237px;
+  margin-right: 215px;
+  padding: 15px;
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+.forms {
+  margin-left: 245px;
+  margin-right: 215px
+}
+
+.rem {
+  position: relative;
+  bottom: 37px;
+}
+
+.submitbutton {
+  text-align: center;
+  padding: 8px;
+  background-color: grey;
+  width: 120px;
+}
+
+.submit {
+  text-align: center;
+}
+
+.mainbody {
+  background-color: rgb(71, 72, 153);
+}
+
+.footer {
+  border: 1px solid black;
+  background-color: white;
+  text-align: center;
+  margin-left: 237px;
+  margin-right: 215px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footertext{
+  color: blue;
+}
+
+.inner {
+  background-color: rgb(179, 208, 235);
+  padding: 3px; 
+}
