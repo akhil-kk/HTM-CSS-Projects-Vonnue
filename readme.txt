@@ -87,3 +87,19 @@ positon and layout
 10. 22:44 margin auto
 11. 24: 33 sticky
 12. 36:08 forms field modification.
+
+video - 9
+
+pseudo classes , pseudo elements
+
+1. used to target difeerent states of an element in the code eg. hover, focus, first child
+2. eg. nav li a:hover {}, 02:55 , img hover { postion: relative
+					      top : 4px;}
+3. focus----- 06:00,  :focus
+4. valid , 07:45     eg. form input:valid { border }
+5. first child --means fisrt li inside nav --09:00 eg: nav li:firstchild {attributes}
+6. pseudo elemenst 12:07 eg: article p::first-line {}
+7. article p::first-letter {}
+8. p::selection { background-color:red}  14:30
+9. p::after { content: '...'}  15:25
+
