@@ -1,0 +1,523 @@
+body, li, ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #37474f;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+header h1 {
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 35px;
+  display: inline-block;
+  margin: 10px 20px;
+  font-family: arial;
+  border: 10px solid #ffffff;
+  border-radius: 35px;
+  padding: 15px;
+}
+
+.banner {
+  position: relative;
+  margin-top: 95px;
+}
+
+.banner img {
+  width: 100%;
+  position: relative;
+  top: 15px;
+}
+
+.banner .welcome {
+  position: absolute;
+  left: 38%;
+  top: 80%;
+}
+
+.banner .welcome h2 {
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: bolder;
+}
+
+nav {
+  background-color: #ff7043;
+  position: sticky;
+  top: 123px;
+  z-index: 1;
+}
+
+nav li {
+  display: inline-block;
+  width: 20%;
+  font-size: 24px;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+main {
+  max-width: 100%;
+  width: 1200%;
+  box-sizing: border-box;
+  padding-top: 0px;
+}
+article{
+  padding-top: 0px;
+}
+
+article h3 {
+  color: #795548;
+  font-size: 30px;
+  text-decoration: underline;
+  display: inline-block;
+  text-align: center;
+  margin: 0% 41%;
+  padding: 5px 10px;
+}
+
+article p {
+  line-height: 2em;
+  text-align: justify;
+  padding: 0 5px;
+}
+
+aside {
+  float: right;
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-left: 12px;
+  box-shadow: inset 5px 0 5px -5px;
+}
+
+aside img {
+  padding: 5px;
+  width: 500px;
+}
+
+section form label {
+  font-size: 20px;
+}
+
+form p {
+  font-size: 20px;
+  color: #90a4ae;
+}
+
+section.student {
+  width: 365px;
+  padding: 10px;
+}
+
+.btn.waves-effect.waves-light[type=submit] {
+  margin-left: 205px;
+  position: static;
+}
+
+.inputs {
+  display: block;
+  padding: 20px 30px;
+  border: 3px solid #424242;
+  border-radius: 20px;
+  width: 600px;
+  margin: 10px 30px;
+}
+
+.details {
+  display: inline-block;
+  margin-left: 150px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.details h3 {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px 10px;
+}
+
+footer {
+  background-color: #263238;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+@media screen and (max-width: 1400px) {
+
+.banner .welcome h2 {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+nav li {
+  width: 20%;
+  font-size: 20px;
+  text-align: center;
+ }
+}
+
+@media screen and (max-width: 1125px) {
+  .banner .welcome h2 {
+    font-size: 27px;
+    font-weight: bold;
+  }
+  
+  nav li {
+    width: 19%;
+    font-size: 20px;
+    text-align: center;
+   }
+
+   nav li a {
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  aside {
+    padding-left: 18px;
+    padding-right: 10px;
+    margin-left: 10px;
+  }
+  
+  aside img {
+    padding: 5px;
+    width: 400px;
+  }
+
+  .inputs {
+    padding: 17px 26px;
+    width: 550px;
+    margin: 10px 30px;
+  }
+  article p {
+    line-height: 2.5em;
+    padding: 0 8px;
+  }
+
+  article h3 {
+    font-size: 27px;
+    text-decoration: underline;
+    display: inline-block;
+    text-align: center;
+    margin: 0% 37%;
+    padding: 5px 10px;
+  }
+  
+  .details h3 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 10px;
+  }
+
+  .details {
+    margin-left: 140px;
+  }
+
+  section form label {
+    font-size: 17px;
+  }
+  
+  form p {
+    font-size: 17px;
+    color: #90a4ae;
+  }
+
+  section.student {
+    width: 325px;
+    padding: 10px;
+  }
+  }
+
+  @media screen and (max-width: 960px) {
+    header h1 {
+      font-weight: bolder;
+      font-size: 27px;
+      margin: 8px 15px;
+      padding: 13px;
+    }
+    .banner .welcome h2 {
+      font-size: 27px;
+      font-weight: bold;
+    }
+    nav {
+      white-space: nowrap;
+      top: 110px;
+    }
+    nav li {
+      width: 18%;
+      font-size: 18px;
+      text-align: center;
+     }
+  
+     nav li a {
+      text-decoration: none;
+      font-size: 15px;
+    }
+  
+    aside {
+      padding-left: 15px;
+      padding-right: 8px;
+      margin-left: 8px;
+    }
+    
+    aside img {
+      padding: 5px;
+      width: 350px;
+    }
+  
+    .inputs {
+      padding: 17px 26px;
+      width: 520px;
+      margin: 10px 45px;
+    }
+    article p {
+      line-height: 2.5em;
+      padding: 0 9px;
+    }
+  
+    article h3 {
+      font-size: 25px;
+      margin: 0% 35%;
+      padding: 5px 10px;
+    }
+    
+    .details h3 {
+      font-size: 25px;
+      font-weight: bold;
+      padding: 10px 10px;
+    }
+  
+    .details {
+      margin-left: 130px;
+    }
+  
+    section form label {
+      font-size: 15px;
+    }
+    
+    form p {
+      font-size: 15px;
+      color: #90a4ae;
+    }
+  
+    section.student {
+      width: 315px;
+      padding: 10px;
+    }
+    .btn.waves-effect.waves-light[type=submit] {
+      margin-left: 180px;
+    }
+    }
+
+    @media screen and (max-width: 730px) {
+      header h1 {
+        font-weight: bolder;
+        font-size: 20px;
+        margin: 6px 12px;
+        padding: 15px;
+      }
+      .banner .welcome h2 {
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .banner .welcome {
+        position: absolute;
+        left: 35%;
+        top: 70%;
+      }
+
+      .banner img {
+        top: 8px;
+      }
+
+      nav {
+        white-space: nowrap;
+        top: 90px;
+      }
+      nav li {
+        width: 18%;
+        font-size: 13px;
+        text-align: center;
+       }
+    
+       nav li a {
+        text-decoration: none;
+        font-size: 13px;
+      }
+    
+      aside {
+        padding-left: 13px;
+        padding-right: 8px;
+        margin-left: 8px;
+      }
+      
+      aside img {
+        padding: 5px;
+        width: 300px;
+      }
+    
+      .inputs {
+        padding: 17px 20px;
+        width: 460px;
+        margin: 10px 50px;
+      }
+      article p {
+        line-height: 2.5em;
+        padding: 0 9px;
+      }
+    
+      article h3 {
+        font-size: 22px;
+        margin: 0% 35%;
+        padding: 5px 10px;
+      }
+      
+      .details h3 {
+        font-size: 25px;
+        font-weight: bold;
+        padding: 10px 10px;
+      }
+    
+      .details {
+        margin-left: 95px;
+      }
+    
+      section form label {
+        font-size: 13px;
+      }
+      
+      form p {
+        font-size: 13px;
+        color: #90a4ae;
+      }
+    
+      section.student {
+        width: 315px;
+        padding: 10px;
+      }
+      .btn.waves-effect.waves-light[type=submit] {
+        margin-left: 160px;
+      }
+      }
+  
+      @media screen and (max-width: 610px) {
+        header h1 {
+          font-weight: bolder;
+          font-size: 13px;
+          margin: 6px 10px;
+          padding: 22px;
+          border: 5px solid #ffffff;
+        }
+        .banner .welcome h2 {
+          font-size: 15px;
+          font-weight: bold;
+        }
+  
+        .banner .welcome {
+          position: absolute;
+          left: 35%;
+          top: 65%;
+        }
+  
+        .banner img {
+          top: -5px;
+        }
+
+        nav {
+          position: relative;
+          top: -10px;
+          z-index: -1;
+        }
+
+        nav li {
+          display: block;
+          width: 100%;
+         }
+      
+         nav li a {
+          background-color: #ff7043;
+          color: #ffffff;
+          font-size: 13px;
+          border: 1px solid #424242;
+          font-weight: bold;
+          text-align: justify;
+        }
+        aside {
+          padding-left: 13px;
+          padding-right: 8px;
+          margin-left: 8px;
+        }
+        
+        aside img {
+          padding: 5px;
+          width: 200px;
+        }
+      
+        .inputs {
+          padding: 17px 20px;
+          width: 360px;
+          margin: 10px 55px;
+        }
+        article p {
+          line-height: 2em;
+          padding: 0 9px;
+        }
+      
+        article h3 {
+          font-size: 15px;
+          margin: 0% 38%;
+          padding: 5px 10px;
+          font-weight: bolder;
+        }
+        
+        .details h3 {
+          font-size: 20px;
+          font-weight: bold;
+          padding: 10px 10px;
+        }
+      
+        .details {
+          margin-left: 85px;
+        }
+      
+        section form label {
+          font-size: 13px;
+        }
+        
+        form p {
+          font-size: 13px;
+          color: #90a4ae;
+        }
+      
+        section.student {
+          width: 315px;
+          padding: 10px;
+        }
+        .btn.waves-effect.waves-light[type=submit] {
+          margin-left: 100px;
+        }
+        footer {
+          font-size: 10px;
+        }
+        }
+  
