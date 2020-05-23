@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <title>The Net Ninja - CSS flexbox </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Store</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+
+      <ul class="social">
+        <li><a href="" class="fb">Facebook</a></li>
+        <li><a href="" class="tw">Twitter</a></li>
+      </ul>
+    </nav>
+    <div style="margin: 20px">
+      <span>layout: </span>
+      <a href="#" class="stack">Stack</a>
+      <a href="#" class="grid">Grid</a>
+    </div>
+
+    <section id="blocks">
+      <article>
+        <h2>I pity the fool</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nulla sapiente tempore, magnam quia sequi esse possimus ratione atque quas deserunt iure ipsa eos molestiae et repellendus? Unde, impedit molestias?. 
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatem ad sunt vel laborum incidunt rem! Ipsa, voluptatum dolore. Et ducimus fuga a quisquam voluptatibus quos at aliquam saepe. Eveniet.</p>
+      </article>
+      <article>
+        <h2>Get to the chopper</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga recusandae quod eius esse hic odio dicta et minima sed amet odit, delectus dolorum, accusantium voluptatem natus cupiditate qui in reprehenderit?. 
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt blanditiis vitae quidem possimus quia laudantium dolore. Commodi voluptates autem totam possimus atque id esse numquam nihil illo. Sapiente, eaque praesentium!. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quae tempora labore, sed, sunt eum nesciunt quam ducimus sapiente aliquam enim voluptatum nisi praesentium voluptas quos, ex a soluta. Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          Fugit sit quidem ducimus autem exercitationem doloremque natus ad alias cumque voluptatum asperiores reiciendis voluptate expedita, eius dolor deleniti error veritatis iure?</p>
+      </article>
+      <article>
+        <h2>What's a horse doing on a spaceship...?</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga recusandae quod eius esse hic odio dicta et minima sed amet odit, delectus dolorum, accusantium voluptatem natus cupiditate qui in reprehenderit?. 
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt blanditiis vitae quidem possimus quia laudantium dolore. Commodi voluptates autem totam possimus atque id esse numquam nihil illo. Sapiente, eaque praesentium!. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quae tempora labore, sed, sunt eum nesciunt quam ducimus sapiente aliquam enim voluptatum nisi praesentium voluptas quos, ex a soluta. Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          Fugit sit quidem ducimus autem exercitationem doloremque natus ad alias cumque voluptatum asperiores reiciendis voluptate expedita, eius dolor deleniti error veritatis iure?</p>
+      </article>
+
+      <article>
+        <h2>I pity the fool</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nulla sapiente tempore, magnam quia sequi esse possimus ratione atque quas deserunt iure ipsa eos molestiae et repellendus? Unde, impedit molestias?. 
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatem ad sunt vel laborum incidunt rem! Ipsa, voluptatum dolore. Et ducimus fuga a quisquam voluptatibus quos at aliquam saepe. Eveniet.</p>
+      </article>
+      <article>
+        <h2>Get to the chopper</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga recusandae quod eius esse hic odio dicta et minima sed amet odit, delectus dolorum, accusantium voluptatem natus cupiditate qui in reprehenderit?. 
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt blanditiis vitae quidem possimus quia laudantium dolore. Commodi voluptates autem totam possimus atque id esse numquam nihil illo. Sapiente, eaque praesentium!. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quae tempora labore, sed, sunt eum nesciunt quam ducimus sapiente aliquam enim voluptatum nisi praesentium voluptas quos, ex a soluta. Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          Fugit sit quidem ducimus autem exercitationem doloremque natus ad alias cumque voluptatum asperiores reiciendis voluptate expedita, eius dolor deleniti error veritatis iure?</p>
+      </article>
+      <article>
+        <h2>What's a horse doing on a spaceship...?</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga recusandae quod eius esse hic odio dicta et minima sed amet odit, delectus dolorum, accusantium voluptatem natus cupiditate qui in reprehenderit?. 
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt blanditiis vitae quidem possimus quia laudantium dolore. Commodi voluptates autem totam possimus atque id esse numquam nihil illo. Sapiente, eaque praesentium!. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quae tempora labore, sed, sunt eum nesciunt quam ducimus sapiente aliquam enim voluptatum nisi praesentium voluptas quos, ex a soluta. Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          Fugit sit quidem ducimus autem exercitationem doloremque natus ad alias cumque voluptatum asperiores reiciendis voluptate expedita, eius dolor deleniti error veritatis iure?</p>
+      </article>
+
+
+    </section>
+    
+  </div>
+  <script>
+    $("a.stack").on("click", function() {
+      $("article").addClass("stack");
+    });
+    $("a.grid").on("click", function() {
+      $("article").removeClass("stack");
+    });
+  </script>
+</body>
+
+</html>
