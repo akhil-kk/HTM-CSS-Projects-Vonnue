@@ -53,7 +53,7 @@ video - 5
 4. begins with #
 5. to cutoom an anchor tag - a[href="link"] { rules}
 6. inheritance : inherited from parrent - can use "inherit" like margin: inherit (inherits margin from parrent)
- 
+
 video - 6
 
 1. HTML - 5 semantic tags - makes code meaningful 
@@ -103,3 +103,55 @@ pseudo classes , pseudo elements
 8. p::selection { background-color:red}  14:30
 9. p::after { content: '...'}  15:25
 
+ CSS Flexbox
+
+1. Flexbox is a new CSS display type that controls position, size and spacing of elements relative to their parrent elements and each other
+2. Works great responsively
+3. Apply a disply type of flex to the parrent container. Then the children elemets in that container directly becomes flex elements.
+4. We can control how they shrink and grow.
+5. sample parrent container    eg; .flex-container {
+				       display: flex
+						    }
+6. Default behaviour of felx items : stack left to right
+7. flex-grow is used to expand elements into available space and the rate at which it expands into that available space is governed by the number given. 
+   It is all relative to the other container next to it
+   
+   eg: flex-grow: 1;
+
+8. flex-shrink is the opposite of flex-grow. It determines the rate at which it shrinks as the browser gets smaller. 
+   The bigger the shrink rate the more it shrinks
+   
+    eg: flex-shrink: 1;
+
+9. flex-wrap prevents elements from going off page when a minimum width is specified
+
+   eg: flex-wrap: wrap;
+
+   There are "wrap-reverse", "no-wrap" values available for flex-wrap
+
+10. Flex-basis - is similar to minimum width. 
+    eg: flex-basis: 200px;
+
+   if we apply minimum width to the boxes and shrink the window, scroll bar apperas after a point where minimum width of the screen is less than than applied min width.
+   where as if we apply flex-basis the boxes will shrink as normal and no scroll bar will appear.
+
+11. Flex-basis, flex-grow and flex-shrink can be combined to one property called flex.
+    
+    eg: flex 1 0 200px; first number denotes flex-grow, second denotes flex shrink, third denotes flex basis.
+
+12. "justify-content: center"  (applied to container for aligning contents to center), flex-end, flex-start, space-between, space-arround  options are also available for alignment.
+
+13. text-indent: -10000 shrink text off the screen.
+14. flex-flow -- control the flow of all the flex elements in the container. can be don as column flow and row flow.
+    eg: flex-flow: column;      // The main axis of flex flow is column wise.
+        flex 1 0 200px; 	//here the flex basis 200px controls the height of the column.
+
+15. justify content property is only applied to the main axis.
+                                      
+16 "align-items" is used to align the flex items in the cross axis flow.
+    eg: align-items: center;
+17. change the order of th elements in a flex box using order.
+   eg.  .one{order: 0;}  // if we change the 0 to 1, this one goes to last.
+	.two{order: 0;}
+	.three{order: 0;}
+ 
