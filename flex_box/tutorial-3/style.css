@@ -1,0 +1,38 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0; 
+}
+body {
+  background: #cfd8dc;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 0;
+}
+
+.flex-container {
+  display: flex;
+  background: white;
+}
+
+.box {
+  height: 100px;
+  min-width: 100px;
+}
+
+.one {
+  background: red;
+  flex-grow: 1;
+}
+
+.two {
+  background: blue;
+  flex-grow: 2;
+}
+
+.three {
+  background: green;
+  flex-grow: 3;
+}

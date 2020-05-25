@@ -1,0 +1,46 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0; 
+}
+body {
+  background: #cfd8dc;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+ nav {
+   background: #b2dfdb;
+ }
+ 
+
+ nav ul {
+   list-style: none;
+   padding: 0;
+ }
+
+ nav a {
+   text-decoration: none;
+   color: white;
+   display: block;
+   padding: 10px;
+   background-color: yellow;
+ }
+
+ nav a:hover {
+   background-color: #80cbc4;
+ }
+
+ @media screen and (min-width: 568px) {
+  nav ul {
+  display: flex;
+  justify-content: flex-start;
+  }
+
+  nav li {
+  flex: 1 1 0;
+  }
+ }
+ 
