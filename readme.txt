@@ -1,107 +1,83 @@
-Video -1
+ 	HTML
 
-1. HTML is a mark up language - note a pgming language
-2. structure content using tags.
-3. <a> </a>, <p> </p>
-4. CSS - cascading style sheets - style web page
-5. css- changes position, colors, effcets, font size.
-6. install live server extension -- from extensions in vs code.
+1. HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content.
+2.  HTML tags
+	<html>-Defines an HTML document.
+	<head> -Contains metadata/information for the document.
+	<body> -Defines the document's body.
+	<h1>....to  <h6>- Defines HTML headings. h1 the largest to h6 the smallest
+	<p> -Defines a paragraph tag.
+	<br> -line break.
+	<blockquote>- Defines a section that is quoted from another source.
+	<a> -Defines a hyperlink. Used for inserting urls to other sites or same site
+	<em>- Defines emphasized text. Usually in italics
+	<strong> -Defines text in bold
+	<form>- Defines an HTML form for user input.
+	<label>- Defines a label for an element.
+	<input> -Defines an input control.
+	<select>- Defines a drop-down list.
+	<button>- Defines a clickable button.
+	<img> -Defines an image.
+	<ul> -Defines an unordered list.
+	<ol>-Defines an ordered list.
 
-video -2 
+3. HTML semantic tags -Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation.
+   HTML5 semantic tags define the purpose of the element
+   semantic tags:
+   
+	<main> - For the main content of a web page
+	<section> - Defines a certain section of a web page (eg. blog list, contact info)
+	<article> - Defines a bit of the content which makes up an article(eg a blog post)
+	<aside> - Defines some content related to something else (eg: similar blog posts)
+	<header> - For the header of a website - contains the nav, title etc
+	<footer> - For the footer of a website - contact information, copyright notice etc
 
-1. <strong> </strong> -  tage makes bold text
-2. <h1>....<h6> tags for heading
-3. <p> for paragraph
-4. <ul> stans for unordered list. inside <ul> start <li> tags.
-5. <div> mark up different sections - no visula effect on html - used in css
-6. <span>- behaves like aparagraph tag
-7. <br> page break.
-8. <img src="image name" alt="what is that pic">
+ CSS
 
-video -3
+1. CSS position property
+  
+  	position: static;  (default) - Position in document flow
 
-1. HtML web forms- used to capture info - login forms, email, contact forms etc.
-2. begins with <form> tag
-3. <label> for adding label to input field
-4. input types text, radio, email, number, password, text area.
-5. id must be unique.
-6. palce holders - text that we see inside input field.
-7. submit - submit the form  - input type = submit.
-8. required attribute - for mandatory inputs.
+	position: relative; Position relative to default position via top, right, bottom, and left properties
 
-video - 4
+	position: fixed; Position to a fixed location on the screen via top, right, bottom, and left properties 
 
-1. css - a list of rule sets
-2. slectors - div, li.
-3. decalartion - set of property value pairs.
-4. eg. li {
-	   color: red;
-	  }
-5. styling inside html and keepin a seperate stylesheet
-6. inline elemets - has css limitations, dont take space more that their content needs.
-   eg. span, img, strong, em
-7. Block level elements - takes whole width of page, p, div, h1, h2,h3, form
-8. margin, padding-  spaceing properties
-9. margin for inline elements - to sides only.
-10. inline ---> block : display: inline-block.
+	position: absolute; Position relative to ancestor absolute element via top, right, bottom, and left properties
 
-video - 5
+	Fixed position (0,0) is top left corner.
 
-1. tag an individual element -  give a class- define class by .class {}
-2. tag.class1.class2 {} - for taging common classes.
-3. id - like classes.. used in JS 
-4. begins with #
-5. to cutoom an anchor tag - a[href="link"] { rules}
-6. inheritance : inherited from parrent - can use "inherit" like margin: inherit (inherits margin from parrent)
+2. Additional properties: 
+ 	
+	background-image: image for element's background
 
-video - 6
+	background-repeat: should background image be displayed in a repeating pattern.
 
-1. HTML - 5 semantic tags - makes code meaningful 
-2. <main> for the content of web page
-3. <section> - defines a certain section (blog, contact)
-4. <article>- eg. blog post
-5. <aside> content related to an article-placed aside
-6. <header> -nav, title,<footer> -footer of website.
+	font, font-family, font-size, font-weight, font-style: font information for text
 
-video -7 
+	text-align, vertical-align: Alignment: center, left, right cursor - Set the cursor when over element
 
-1. chrome developer tools - debug website, inspect elements
-2. inspect - elements - outline of document- edit attributes, delete attributes
-3. can edit and test in chrome inspect.
-4. sources tab - tree of files in the project
-5. preview- the work on different devices using the phonebutton.
+3, visibility peoperties : 
 
-video - 8
+	display:  none;   - Element is not displayed and takes no space in layout.
+	 
+	display: inline; - Element is treated as an inline element.
+ 
+	display: block; - Element is treated as a block element.
 
-positon and layout
+	display: flex;  - Element is treated as a flex container. 
 
-1.  position - static, relative, absolute, fixed, sticky
-2. static - default. can be used in resettingthe position.
-3. Relative - shift the position relative to its original position.
-4. fixed - An element with position fixed; is positioned relative to the viewport.
-5. absolute - position absolutely relative to its closest parrent.
-6. sticky -  mixture of static and sticky
-7. 13:17 - font size in em
-8. 17:02 - z-index
-9. 22:05 - white space no wrap
-10. 22:44 margin auto
-11. 24: 33 sticky
-12. 36:08 forms field modification.
+	display: grid;  - Element is treated as a grid container.
 
-video - 9
+	visibility: hidden; - Element is hidden but space still allocated.
 
-pseudo classes , pseudo elements
+	visibility: visible; - Element is normally displayed
 
-1. used to target difeerent states of an element in the code eg. hover, focus, first child
-2. eg. nav li a:hover {}, 02:55 , img hover { postion: relative
-					      top : 4px;}
-3. focus----- 06:00,  :focus
-4. valid , 07:45     eg. form input:valid { border }
-5. first child --means fisrt li inside nav --09:00 eg: nav li:firstchild {attributes}
-6. pseudo elemenst 12:07 eg: article p::first-line {}
-7. article p::first-letter {}
-8. p::selection { background-color:red}  14:30
-9. p::after { content: '...'}  15:25
+4. pseudo-classes: A CSS pseudo-class is a keyword added to selectors that specifies a special state of the element to be selected.
+ 	
+	hover - Apply when mouse is over the element.
+	Eg: p:hover, a:hover {  
+		background-color: yellow; 
+		} 
 
  CSS Flexbox
 
