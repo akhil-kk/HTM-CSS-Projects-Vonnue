@@ -79,7 +79,8 @@
 		background-color: yellow; 
 		} 
 
- CSS Flexbox
+
+CSS Flexbox
 
 1. Flexbox is a new CSS display type that controls position, size and spacing of elements relative to their parrent elements and each other
 2. Works great responsively
@@ -123,6 +124,14 @@
         flex 1 0 200px; 	//here the flex basis 200px controls the height of the column.
 
 15. justify content property is only applied to the main axis.
+                                      
+16 "align-items" is used to align the flex items in the cross axis flow.
+    eg: align-items: center;
+17. change the order of th elements in a flex box using order.
+   eg.  .one{order: 0;}  // if we change the 0 to 1, this one goes to last.
+	.two{order: 0;}
+	.three{order: 0;}
+
                                       
 16 "align-items" is used to align the flex items in the cross axis flow.
     eg: align-items: center;
