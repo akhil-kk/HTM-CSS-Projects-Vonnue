@@ -1,0 +1,411 @@
+body {
+  margin: auto 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 7px;
+}
+.navigation1 a {
+  display: block;
+  margin: 2px;
+  justify-content: space-between;
+  text-decoration: none;
+  color: black;
+  padding: 2px;
+  font-size: 12px;
+  flex: 1 1 0;
+}
+.nav {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-header1 {
+  display: flex;
+  flex-direction: row;
+  height: 25px;
+  padding: 0 30px;
+}
+
+.navigation1 {
+  display: flex;
+  flex:4;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #005ba1;
+}
+
+form input[type="text"] {
+  width: 100px;
+  outline: none;
+}
+
+.main-header2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navigation2 {
+  flex: 5;
+}
+
+.mainportal {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.portalbtn:hover {
+  background-color: #005ba1;
+  color: white;
+}
+
+.selection{
+  font-weight: bold;
+}
+.selection1 {
+  width: 163px;
+}
+.selection2 {
+  width: 95px;
+}
+.selection3 {
+  width: 96px;
+}
+.selection4 {
+  width: 72px;
+}
+.selection5 {
+  width: 88px;
+}
+
+.main {
+  border: none;
+}
+.main-header2 {
+  height: 25px;
+  padding: 0 35px;
+  background-color: white;
+}
+.navigation2 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  font-size: 12px;
+}
+/* 
+.navigation2a {
+  text-decoration: none;
+} */
+.freeaccount {
+  background-color: #005ba1;
+  color: white;
+  padding: 4px 14px;
+  border-style: none;
+  font-size: 10px;
+  height: 25px;
+}
+.portalbtn {
+  border-style: none; 
+  padding: 4px 14px;
+  font-size: 10px;
+  height: 25px;
+}
+
+.navigation3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation3 a {
+  display: block;
+  margin: 2px;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 2px;
+  font-size: 12px;
+  color: black;
+  flex: 1 1 0;
+}
+
+.large.material-icons {
+  font-size: 1rem;
+  position: relative;
+  top: 2px;
+}
+
+.main-header3 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 0 140px;
+  height: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+.section1 {
+  /* display: block; */
+  background-color:#005ba1;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 13px 80px;
+}
+
+.section1 p {
+  font-size: 12px;
+}
+
+.section1 h1 {
+  font-size: 28px;
+  font-family: 'Segoe UI';
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 15px 55px;
+  justify-content: space-between;
+}
+.section2 a {
+  text-decoration: none;
+  color: #005ba1;
+  font-size: 16px;
+}
+
+.section2 p {
+  font-size: 12px;
+  color: #757575;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 0;
+  border: 1px solid #eeeeee;
+  margin: auto 8px;
+  padding: 5px 10px;
+}
+
+.box:hover {
+  box-shadow: 3px 3px 3px grey;
+}
+
+.navigation4 a {
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+}
+.navigation4 ul {
+  list-style-type: none;
+}
+.navigation4 li {
+  width: 170px;
+  margin: 2px 0px;
+}
+.navigation4 {
+  margin-left: 20px;
+}
+.navigation4 li:hover {
+  box-shadow: 3px 3px 3px grey;
+}
+.main-div{
+  display: flex;
+  width: 100%;
+}
+.rootbox {
+  width: 100%;
+  display: flex;
+  /* flex-flow: row; */
+  flex-wrap: wrap;
+}
+.tiles {
+  display: block;
+}
+
+.sidebox {
+  /* width: 15%; */
+  flex: 0 1 180px;
+  border: 1px solid #eeeeee;
+  background-color: white;
+  margin: 7px 7px;
+  padding: 10px;
+}
+
+.sidebox:hover {
+  box-shadow: 3px 3px 3px grey;
+}
+.featured {
+  display: block;
+  width: 100%;
+}
+.featured h3 {
+  font-weight: bold;
+  font-size: 15px;
+}
+.heading {
+  padding-top: 25px;
+  margin-left: 55px;
+  font-size: 23px;
+  font-weight: normal;
+}
+.sidebox h3 {
+  font-size: 13px; 
+}
+.sidebox a {
+  text-decoration: none;
+}
+.sidebox p {
+  font-size: 12px;
+}
+.section3 {
+  background-color:#f5f5f5;
+}
+
+.programs {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.programbox {
+  display: flex;
+  flex-flow: row;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  margin: 10px 8px;
+  padding: 5px 5px;
+  background-color: #eeeeee;
+  flex: 0 1 175px;
+}
+
+.programbox a {
+  text-decoration: none;
+}
+
+.section4 {
+  margin: 60px 50px;
+}
+
+.programbox:hover {
+  box-shadow: 3px 3px 3px grey;
+}
+
+.programtext {
+  padding-left: 7px;
+  padding-top: 7px;
+}
+
+.cloudBox {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.innercloudbox {
+  flex: 0 1 360px;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  background-color: white;
+  margin: 10px 8px;
+  padding: 12px 20px;
+}
+.innercloudbox p {
+  font-size: 12px;
+}
+
+.innercloudbox a {
+  text-decoration: none;
+  color: #005ba1;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.section5 {
+  padding: 20px 25px;
+  background-color: #eeeeee;
+}
+
+.innercloudbox:hover {
+  box-shadow: 3px 3px 3px grey;
+}
+
+.section5 h2 {
+  margin-left: 32px;
+}
+
+.material1 .large.material-icons {
+  font-size: 1rem;
+  position: relative;
+  top: 3px;
+}
+
+.theme .large.material-icons {
+  font-size: 1rem;
+  position: relative;
+  top: 3px;
+}
+
+.theme {
+  padding-left: 3px;
+  border-style: none;
+  font-size: 12px;
+  background-color: #e0e0e0;
+}
+
+.navigation5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footerclass1 {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.footerclass2 {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  flex: 1.5;
+}
+
+.navigation5 ul {
+  list-style-type: none;
+}
+
+.navigation5 a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  font-size: 12px;
+}
+
+footer {
+  background-color: #e0e0e0;
+  padding: 25px 25px;
+}
+
+.navigation5 a:hover {
+  text-decoration: underline;
+}
+
+.theme:hover {
+  border: 1px solid black;
+}
