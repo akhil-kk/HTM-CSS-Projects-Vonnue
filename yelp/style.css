@@ -1,0 +1,380 @@
+body {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+@media screen and (min-width: 760px) {
+    .wrapper {
+        width: 75%;
+        margin: 0 auto;
+        padding: 0 1em;
+        max-width: 1200px;
+    }
+    
+    header {
+        background-color: black;
+    }
+    
+    .main-nav {
+        display: flex;
+        justify-content: space-between;
+        /* padding-top: 1em;
+        padding-bottom: 1em; */
+        padding: 1em 2em;
+    }
+    
+    .main-nav-ul1 {
+        display: flex;
+        align-items: center;
+    }
+
+    .main-nav-ul2 {
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    .main-nav a {
+        color: white;
+        display: block;
+        padding: 1em;
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+    .main-nav-ul2 input {
+        color: white;
+        background-color: black;
+        border: 2px solid white;
+        padding: 0.5em 1.5em;
+        border-radius: 5px;
+        font-weight: bold;
+        outline: none;
+    }
+
+    .main-nav-ul2 input:hover {
+        background-color: white;
+        color: black;
+        outline: none;
+    }
+
+    /* underline hover */
+
+    .main-nav a:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #fff;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+    }
+
+    .main-nav a:hover:after {
+        width: 100%; 
+        left: 0;
+    }
+
+    .main-nav li {
+        position: relative; 
+    }
+    
+    /* underline hover */
+
+    .main-nav-ul2 li {
+        padding: 0 0.5em;
+    }
+
+    .header-container2 {
+        padding-top: 70px;
+        padding-left: 1em;
+        padding-right: 1em;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .header-container2 img {
+        padding-bottom: 3rem;
+    }
+    
+    .search-container .large.material-icons {
+        color: white;
+        font-size: 2rem;
+        background-color: #d32323;
+    }
+
+    .search-container span {
+        opacity: 0.9;
+        font-weight: bold;
+        padding-left: 0.2em;
+    }
+
+    .search-container {
+        display: flex;
+        align-items: center;
+        background-color: white;
+        justify-content: center;
+        border-radius: 10px;
+        padding-left: 0.2em;
+        width: 95%;
+    }
+    
+    .search-items, .search-location {
+        width: 95%;
+        padding: 0.2em 1em;
+        outline: none;
+        border-top: none;
+        border-bottom: none;
+        border-left: none;
+    }
+
+    .search-location {
+        border-right: none;
+    }
+
+    .search-container a {
+        padding: 0.2em 1em;
+        background-color: #d32323;
+    }
+
+    .services-container {
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+    }
+
+    .services a {
+        color: white;
+        padding-left: 0.5em;
+    }
+
+    .services {
+        display: flex;
+        align-items: center;
+    }
+
+    .feature1, .feature2, .feature3 {
+        margin-right: 1em;
+    }
+
+    .message {
+        width: 55%;
+        text-align: center;
+    }
+    .message p {
+        color: white;
+    }
+
+    .message-wrapper{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 4em;
+        padding-top: 1.5em;
+    }
+
+    .message a {
+        color: white;
+        text-decoration: underline;
+    }
+
+    .services a:hover {
+        text-decoration: underline;
+    }
+
+    .best-business-section {
+        background-color: #eeeeee;
+        padding-bottom: 2em;
+    }
+    
+    .best-business-wrapping {
+        width: 75%;
+        margin: 0 auto;
+    }
+    
+    .best-business-section-wrapper h3 {
+        margin: 0;
+        padding: 2em;
+        color: #d32323;
+    }
+    
+    .find-business-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .best-business-section-wrapper {
+        width: 75%;
+        margin: 0 auto;
+        padding: 0 3.5em;
+        max-width: 1200px;
+        text-align: center;
+    }
+    
+    .business {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        background-color: white;
+        border: 1px solid #eeeeee;
+        border-radius: 8px;
+    }
+    
+    .cont1, .cont2, .cont3 {
+        margin-right: 2em;
+    }
+    
+    .find-business-text {
+        font-weight: bold;
+        padding: 0.5em 0;
+    }
+    
+    .business:hover {
+        box-shadow: 10px 10px 8px  #e0e0e0;
+    }
+    
+    .san-francisco {
+        width: 70%;
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 0 1em;
+        text-align: center;
+    }
+    
+    .san-francisco h3 {
+        margin: 0;
+        padding-top: 2em;
+        padding-bottom: 0.7em;
+        color: #d32323;
+    }
+    
+    .san-francisco-nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .search-cities {
+        display: flex;
+        align-items: center;
+    }
+    
+    .san-francisco-nav a {
+        display: block;
+        display: block;
+        padding: 1em;
+        font-size: 1rem;
+        color: #9e9e9e;
+    }
+    
+    .search-cities a {
+        padding: 0.9em 0.3em;
+    }
+    
+    .search-cities .large.material-icons {
+        opacity: 0.5;
+    }
+    
+    .san-francisco-nav a:hover {
+        text-decoration: none;
+    }
+    
+    /* underline hover */
+    
+    .san-francisco-nav a:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #d32323;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+    }
+    
+    .san-francisco-nav a:hover:after {
+        width: 100%; 
+        left: 0;
+    }
+    
+    .san-francisco-nav li {
+        position: relative; 
+    }
+    
+    /* underline hover */
+    
+    .line {
+        display: flex;
+        justify-content: center;
+    }
+    hr {
+        width: 91%;
+        margin: 0;
+    }
+    
+    .checked {
+        color: white;
+        background-color: #d32323;
+        padding: 0.1em 0.2em;
+        border-radius: 2px;
+      }
+    
+      .unchecked {
+        background-color: #bdbdbd;
+        padding: 0.1em 0.2em;
+        color: white;
+        border-radius: 2px;
+      }
+    
+      .fa.fa-fire {
+        text-decoration: none;
+        color: #F15C00;
+      }
+    
+      .business-image {
+          max-width: 100%;
+          height: auto;
+      }
+      .hot-business {
+          text-align: center;
+          padding-bottom: 0.8em;
+      }
+
+      .new-business-wrapper {
+          display: flex;
+          padding: 0 3em;
+          align-items: center;
+          justify-content: space-between;
+      }
+
+      .type2, .type3 {
+          margin-left: 2em;
+      }
+      
+      .new-business {
+          text-align: justify;
+          border: 1px solid #e0e0e0;
+          border-radius: 8px;
+      }
+
+      .hot-business h4 {
+        color: #d32323;
+      }
+
+      .business-description h4 {
+        color: #0073bb;
+        margin: 0;
+        padding: 0.5em 0;
+      }
+
+      .business-description {
+          padding: 0.8em;
+      }
+
+      .new-business p {
+          margin: 0.2em 0;
+      }
+}
+
