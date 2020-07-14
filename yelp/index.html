@@ -122,52 +122,61 @@
         <section class="hot-business">
             <h4>Hot & New Businesses</h4>
             <div class="new-business-wrapper">
-                <div class="new-business type1">
-                    <a href=""><img src="img/zattar.jpg" alt="" height="180"></a>
+                <div class="new-business type1" id="img1">
+                    <img id="new-business-image1" onclick="imageShuffle('img1')" src="img/zattar.jpg" alt=""
+                        height="180">
                     <div class="business-description">
                         <h4>Le Moon Thai Eatery</h4>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star unchecked"></span>
-                        <span>6 reviews</span>
+                        <div class="starReview">
+                            <div class="reviewbox" id="reviewBox1">
+                                <span class="fa fa-star unchecked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                            </div>
+                        </div>
                         <p>Thai</p>
                         <p>Marina/Cow Hollow</p>
                         <i class="fa fa-fire"></i>
-                        <span class="remarks">Opened 6 weeks ago</span>
                     </div>
                 </div>
-                <div class="new-business type2">
-                    <a href=""><img src="img/gotharvest.jpg" alt="" height="180"></a>
+                <div class="new-business type2" id="img2">
+                    <img id="new-business-image2" onclick="imageShuffle('img2')" src="img/gotharvest.jpg" alt=""
+                        height="180">
                     <div class="business-description">
                         <h4>1011 Sip Tea</h4>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star unchecked"></span>
-                        <span>8 reviews</span>
+                        <div class="starReview">
+                            <div class="reviewbox" id="reviewBox2">
+                                <span class="fa fa-star unchecked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                            </div>
+                        </div>
                         <p>Bubble Tea, Coffee & Tea</p>
                         <p>Outer Sunset</p>
                         <i class="fa fa-fire"></i>
-                        <span class="remarks">Opened a few days ago</span>
                     </div>
                 </div>
-                <div class="new-business type3">
-                    <a href=""><img src="img/ziptea.jpg" alt="" height="180"></a>
+                <div class="new-business type3" id="img3">
+                    <img id="new-business-image3" onclick="imageShuffle('img3')" src="img/ziptea.jpg" alt=""
+                        height="180">
                     <div class="business-description">
                         <h4>Hetchy's Hots</h4>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star unchecked"></span>
-                        <span>8 reviews</span>
+                        <div class="starReview">
+                            <div class="reviewbox" id="reviewBox3">
+                                <span class="fa fa-star unchecked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                            </div>
+                        </div>
                         <p>CSA</p>
                         <p>Bayview-Hunters Point</p>
                         <i class="fa fa-fire"></i>
-                        <span class="remarks">Opened 8 weeks ago</span>
                     </div>
                 </div>
             </div>
@@ -206,42 +215,45 @@
         </section>
 
         <section class="review-wrapper">
-            <div class="reivie-of-day">
-                <h4>Review of the Day</h4>
+            <div class="review-of-day">
+                <h4 class="block-heading">Review of the Day</h4>
                 <div class="review-content">
                     <div class="review-ratings">
-                        <a href=""><img src="img/natureimage.jpg" alt=""></a>
-                        <div>
-                            <a href="">Elaine Y</a>
+                        <a href=""><img class="profile-img" src="img/natureimage.jpg" alt="" width="60" height="60"></a>
+                        <div class="reviewer-ratings">
+                            <a class="reviewer-name" href="">Elaine Y</a>
                             <nav class="review-navigation">
                                 <ul>
                                     <li>
-                                        <div>
+                                        <div class="review-icons">
                                             <a href=""><img src="img/friends-icon.PNG" alt=""></a>
                                             <a href="">813</a>
                                         </div>
                                     </li>
                                     <li>
-                                        <div>
-                                            <a href=""><span class="fa fa-star checked"></span></a>
+                                        <div class="review-icons">
+                                            <a href=""><span class="fa fa-star rate"></span></a>
                                             <a href="">1094</a>
                                         </div>
                                     </li>
-                                    <li><a href="">Elite '20</a></li>
+                                    <li><a class="elite" href="">Elite '20</a></li>
                                 </ul>
                             </nav>
-                            <p>Wrote a review for <a href="">2227 Irving Seafood Market</a></p>
+                            <p class="seafood">Wrote a review for <a class="seafood-market" href="">2227 Irving Seafood
+                                    Market</a></p>
                         </div>
-                        <div class="review-banner">
-                            <p>Review of the Day</p>
-                            <img src="img/banner.png" alt="">
-                        </div>
+                    </div>
+                    <div class="review-banner">
+                        <p>Review of the Day</p>
+                        <img class="review-banner-img" src="img/banner.png" alt="">
+                    </div>
+                    <div class="food-description">
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star unchecked"></span>
-                        <span>5/3/2020</span>
+                        <span class="review-date">5/3/2020</span>
                         <p>This is one of our favorite stops along Irving to pick up our meats for the week. They have a
                             very good variety of choices and you can also always ask if they might have some less
                             popular pieces that aren't displayed (like pork cheeks, beef tendons, etc). I also like that
@@ -249,10 +261,249 @@
                             when you are prepping at home. By far, one of our favo... Continue reading</p>
                     </div>
                 </div>
+                <a class="remarks-local" href="">Read previous reviews</a>
             </div>
+            <div class="recent-collection-box">
+                <h4 class="block-heading">Recent Collection</h4>
+                <div class="recent-collections">
+                    <div class="recent">
+                        <img src="img/recent1.jpg" alt="">
+                        <div class="recent-text">
+                            <h4>The City (SF).</h4>
+                            <span>A black woman's take on ..</span>
+                            <p class="recent-p1">15 Places By<span class="recent-span">Tray B</span></p>
+                        </div>
+                    </div>
 
+                    <div class="recent">
+                        <img src="img/recent2.jpg" alt="">
+                        <div class="recent-text">
+                            <h4>Yum Area!!!</h4>
+                            <p class="recent-p">34 Places By<span class="recent-span">Alena Q.</span></p>
+                        </div>
+                    </div>
+
+                    <div class="recent recent-last">
+                        <img src="img/recent3.jpg" alt="">
+                        <div class="recent-text">
+                            <h4>San Frans</h4>
+                            <p class="recent-p">8 Places · By<span class="recent-span">Andreas R.</span></p>
+                        </div>
+                    </div>
+                </div>
+                <a class="remarks-local" href="">Browse more collections</a>
+            </div>
         </section>
+
+        <section class="recent-activity">
+            <h2 class="section-heading">Recent Activity</h2>
+            <div class="acivity-container">
+                <div class="activity1">
+                    <div class="acivity-user1">
+                        <img src="img/user1.jpg" alt="">
+                        <div>
+                            <span class="heading">Jamie E.</span>
+                            <p>Added 2 photos</p>
+                        </div>
+                    </div>
+                    <h4 class="heading">Cafe Bunn Mi</h4>
+                    <div class="act-img">
+                        <div class="act1-sub">
+                            <img src="img/act1.jpg" alt="">
+                            <div class="act-recent">
+                                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                                <span>Like</span>
+                            </div>
+                        </div>
+                        <div class="act1-sub2">
+                            <img src="img/act2.jpg" alt="">
+                            <div class="act-recent">
+                                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                                <span>Like</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="activity2">
+                    <div class="acivity-user2">
+                        <img src="img/user2.png" alt="">
+                        <div>
+                            <span class="heading">Jamie E.</span>
+                            <p>Added 1 photo</p>
+                        </div>
+                    </div>
+                    <h4 class="heading">Asha Tea House</h4>
+                    <img class="teahouse" src="img/act3.jpg" alt="">
+                    <div class="act-recent">
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                        <span>Like</span>
+                    </div>
+                </div>
+
+                <div class="activity3">
+                    <div class="acivity-user3">
+                        <img src="img/user2.png" alt="">
+                        <div>
+                            <span class="heading">Jamie E.</span>
+                            <p>Added 1 review</p>
+                        </div>
+                    </div>
+                    <img class="act3-img" src="img/act4.jpg" width="100%" height="150">
+                    <div class="act3-text">
+                        <div class="act3-heading">
+                            <h4 class="heading">Asha Tea House</h4>
+                        </div>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <p style="margin-top: 0.7em;">Great milk teas that are rich in flavor and also great tea leaves
+                            to boot! I was on the lookout for some chrysanthemum tea but weary of what was available
+                            online (lots of complaints with Amazon brands...</p>
+                        <span style="color: #0073bb;
+                                    display: block;
+                                    padding-bottom: 0.5em;
+                                    border-bottom: 1px solid #e0e0e0;
+                                    ">Continue reading</span>
+                    </div>
+                    <div class="smily">
+                        <ul>
+                            <li><img src="img/bulb.png" alt=""></li>
+                            <li><img src="img/sm.png" alt=""></li>
+                            <li><img src="img/sm2.png" alt=""></li>
+                        </ul>
+                        <img src="img/smily.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <a class="remarks-local" href="">Show more activity in San Francisco</a>
+        </section>
+
+        <section class="browse-business">
+            <h2>Browse Business by Category</h2>
+            <div class="browse-container">
+                <div class="browse br1">
+                    <img src="img/hotelsRest.png" alt="">
+                    <p>Restaurants</p>
+                </div>
+                <div class="browse br2">
+                    <img src="img/shopping.png" alt="">
+                    <p>Shopping</p>
+                </div>
+                <div class="browse br3">
+                    <img src="img/nightlife.png" alt="">
+                    <p>Nightlife</p>
+                </div>
+                <div class="browse br4">
+                    <img src="img/football.png" alt="">
+                    <p>Active Life</p>
+                </div>
+                <div class="browse br5">
+                    <img src="img/mirror.png" alt="">
+                    <p>Beauty & Spas</p>
+                </div>
+                <div class="browse br6">
+                    <img src="img/car.png" alt="">
+                    <p>Automotive</p>
+                </div>
+                <div class="browse br7">
+                    <img src="img/spanner.png" alt="">
+                    <p>Home Services</p>
+                </div>
+                <div class="browse br8">
+                    <img src="img/tile.png" alt="">
+                    <p>More Categories</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="yelp-mobile-apps">
+            <h2>Yelp Mobile Apps</h2>
+            <div class="yelp-mobile-apps-container">
+                <div class="tabs">
+                    <p>iPhone, iPad and <span><i class="fa fa-apple"></i></span> Watch</p>
+                    <img src="img/tab.png" alt="">
+                </div>
+                <div class="tabs">
+                    <p>Android</p>
+                    <img src="img/mobile.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <footer class="yelp-footer">
+            <div class="footer-container">
+                <div class="footer-box">
+                    <p>About</p>
+                    <ul class="ft-text">
+                        <li><a href="">About Yelp</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Press</a></li>
+                        <li><a href="">Investor Relations</a></li>
+                        <li><a href="">Content Guidelines</a></li>
+                        <li><a href="">Terms of Service</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Ad Choices</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-box">
+                    <p>Discover</p>
+                    <ul class="ft-text">
+                        <li><a href="">Yelp Project Cost Guides</a></li>
+                        <li><a href="">Collections</a></li>
+                        <li><a href="">Talk</a></li>
+                        <li><a href="">Events</a></li>
+                        <li><a href="">The Local Yelp</a></li>
+                        <li><a href="">Yelp Blog</a></li>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">Yelp Mobile</a></li>
+                        <li><a href="">Developers</a></li>
+                        <li><a href="">RSS</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-box">
+                    <p>Yelp for Business</p>
+                    <ul class="ft-text">
+                        <li><a href="">Claim your Business Page</a></li>
+                        <li><a href="">Advertise on Yelp</a></li>
+                        <li><a href="">Yelp for Restaurant Owners</a></li>
+                        <li><a href="">Table Management</a></li>
+                        <li><a href="">Business Success Stories</a></li>
+                        <li><a href="">Business Support</a></li>
+                        <li><a href="">Yelp Blog for Business</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-box">
+                    <div>
+                        <p>Yelp for Business</p>
+                        <select>
+                            <option value="">English</option>
+                            <option value="">French</option>
+                            <option value="">Italian</option>
+                        </select>
+                    </div>
+                    <div class="footer-class">
+                        <p>Countries</p>
+                        <select>
+                            <option value="">United States</option>
+                            <option value="">India</option>
+                            <option value="">Russia</option>
+                            <option value="">Japan</option>
+                            <option value="">Australia</option>
+                            <option value="">Uk</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <img src="img/kottaram.png" alt="">
+            <p class="footer-text">Copyright © 2004–2020 Yelp Inc. Yelp <span><img src="img/ft.png" alt="" width="40"></span> Yelp burst and related marks are registered trademarks of Yelp.</p>
+        </footer>
     </main>
+    <script src="app.js"></script>
 </body>
 
 </html>

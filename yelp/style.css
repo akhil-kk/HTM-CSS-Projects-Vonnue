@@ -309,16 +309,18 @@ body {
     }
     
     .checked {
-        color: white;
-        background-color: #d32323;
+        color: #d32323;
         padding: 0.1em 0.2em;
         border-radius: 2px;
       }
+
+      .fa-star-half-o {
+        color: #d32323;  
+      }
     
       .unchecked {
-        background-color: #bdbdbd;
+        color: #bdbdbd;
         padding: 0.1em 0.2em;
-        color: white;
         border-radius: 2px;
       }
     
@@ -326,13 +328,33 @@ body {
         color: #F15C00;
       }
 
+      .reviewbox span {
+          margin-left: 0;
+      }
+
       .remarks {
         color: #F15C00;  
       }
 
        .type1,.type2, .type3 {
-        width: 31%;
+        width: 32%;
+        margin: 0 1.1em;
       }
+
+      .starReview {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .reviewbox span {
+        cursor: pointer;
+    }
+
+    .reviewbox {
+        margin-right: 0.4em;
+        margin-bottom: 0.2em;
+    }
     
       .type1 img, .type2 img, .type3 img  {
           width: 100%;
@@ -353,14 +375,14 @@ body {
           justify-content: center;
       }
 
-      .type2, .type3 {
-          margin-left: 2.1em;
-      }
-      
       .new-business {
           text-align: justify;
           border: 1px solid #e0e0e0;
           border-radius: 8px;
+      }
+
+      #new-business-image1, #new-business-image2, #new-business-image3  {
+          cursor: pointer;
       }
 
       .hot-business h4 {
@@ -461,5 +483,435 @@ body {
       .remarks-local:hover {
           text-decoration: underline;
       }
+
+      .review-wrapper {
+          width: 1000px;
+          margin: 0 auto;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 2em;
+      }
+
+      .review-content {
+        width: 655px;
+        border: 1px solid #e0e0e0;
+        padding: 0.5em;
+        border-radius: 8px;
+      }
+
+      .review-ratings {
+        display: flex;
+      }
+
+      .reviewer-ratings {
+          text-align: justify;
+      }
+
+      .review-navigation ul {
+        display: flex;
+        align-items: center;
+      }
+
+      .review-navigation li {
+          padding: 0.2em 0.5em;
+      }
+
+      .review-icons {
+          display: flex;
+          align-items: center;
+      }
+
+      .review-icons a {
+          padding: 0 0.2em;
+          font-size: 14px;
+      }
+
+      .elite {
+        font-size: 14px;
+        color: #F15C00;
+        font-weight: bold;
+      }
+
+      .rate {
+          background-color: #F15C00;
+          color: white;
+      }
+
+      .seafood {
+        padding: 0 0.7em;
+        font-size: 14px;
+      }
+
+      .seafood-market {
+        color: #0073bb;
+        font-weight: bold;
+        font-size: 14px;
+      }
+
+      .reviewer-name {
+        display: block;
+        color: #0073bb;
+        font-weight: bold;
+        padding: 0 0.7em;
+      }
+
+      .profile-img {
+          border-radius: 5px;
+          margin-bottom: 0.5em;
+      }
+
+      .food-description {
+          text-align: justify;
+      }
+
+      .review-of-day, .recent-collection-box {
+          text-align: center;
+      }
+
+      .block-heading {
+          color: #d32323;
+          padding-bottom: 1.5em;
+      }
+
+      .review-banner {
+          display: flex;
+          align-items: center;
+          background-color: #d0ecfb;
+          border-radius: 8px;
+          padding: 0.4em;
+          position: relative;
+          font-size: 14px;
+          margin-bottom: 1em;
+      }
+
+      .review-banner-img {
+          position: absolute;
+          top: auto;
+          left: 90%;
+          width: 45px;
+          height: 45px;
+      }
+
+      .food-description p {
+          margin-top: 0.5em;
+          font-size: 16px;
+          line-height: 1.2rem;
+      }
+
+      .review-date {
+          font-size: 15px;
+          opacity: 0.7;
+      }
+      
+
+      .recent-collections {
+        margin-left: 2.1em;
+        width: 307px;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        padding: 0.3em;
+      }
+
+      .recent-collections p {
+          font-size: 13px;
+          opacity: 0.7;
+      }
+
+      .recent-collections span {
+        font-size: 15px;
+      }
+
+      .recent {
+          display: flex;
+          border-bottom: 1px solid #e0e0e0;
+          padding: 0.3em;
+      }
+
+      .recent h4 {
+        color: #0073bb;
+      }
+
+      .recent img {
+          width: 75px;
+          height: 75px;
+          border-radius: 5px;
+      }
+
+      .recent-text {
+          text-align: justify;
+          padding: 0.5em;
+      }
+
+      .recent-p1 {
+          margin-top: 0.9em;
+      }
+
+      .recent-last {
+          border: none;
+      }
+
+      .recent-p {
+          margin-top: 1.8em;
+      }
+
+      .recent-span {
+        color: #0073bb;
+        margin-left: 0.3em;
+        font-weight: 500;
+      }
+
+      .recent-activity, .yelp-mobile-apps-container {
+        width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 4em;
+      }
+
+      .activity1 {
+          border: 1px solid #e0e0e0;
+          width: 310px;
+          height: 280px;
+          padding: 0.7em;
+          text-align: justify;
+      }
+
+      .acivity-user1, .acivity-user2 {
+        display: flex;
+        text-align: justify;
+        border-bottom: 1px solid #e0e0e0;
+        margin-bottom: 0.5em;
+      }
+
+      .acivity-container {
+          display: flex;
+          border-bottom: 1px solid #e0e0e0;
+          padding-bottom: 1em;
+      }
+
+      .acivity-user1 img, .acivity-user2 img {
+          width: 35px;
+          height: 35px;
+          border-radius: 5px;
+          margin-right: 0.5em;
+          margin-bottom: 0.7em;
+      }
+
+      .act1-sub2 {
+          margin-left: 0.8em;
+          border: 1px solid #e0e0e0;
+      }
+
+      .act-img img {
+          width: 135px;
+          height: 135px;
+      }
+
+      .act-img {
+          display: flex;
+          text-align: justify;
+          margin-top: 0.5em;
+      }
+
+      .act-recent {
+          padding: 0.4em;
+      }
+
+      .act1-sub {
+        border: 1px solid #e0e0e0; 
+      }
+
+      .activity2,  .activity3{
+        width: 310px;
+        border: 1px solid #e0e0e0;
+        margin-left: 2em;
+        text-align: justify;
+      }
+
+      .activity2 {
+          height: 445px;
+      }
+      
+      .teahouse {
+        width: 100%;
+        margin-top: 0.5em;
+      }
+
+      .acivity-user2 {
+        margin: 0.7em;
+      }
+
+      .activity2 h4 {
+          margin-left: 0.7em;
+      }
+
+      .heading {
+        color: #0073bb;
+      }
+
+      .section-heading {
+        color: #d32323; 
+      }
+
+      .acivity-user3 {
+        display: flex;
+        text-align: justify;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 0.7em;
+      }
+
+      .acivity-user3 img {
+        width: 35px;
+        height: 35px;
+        border-radius: 5px;
+        margin-right: 0.5em;
+      }
+
+      .act3-img {
+        margin-bottom: 0.5em;
+      }
+
+      .act3-heading {
+        padding-left: 0.7em;
+        padding-bottom: 0.7em;
+        border-bottom: 1px solid #e0e0e0;
+        margin-bottom: 0.7em;
+      }
+
+      .act3-text {
+        padding: 0 0.8em 0.8em 0.8em;
+      }
+
+      .smily {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 0.6em 0.6em 0.6em;
+      }
+
+      .smily ul {
+        display: flex;
+        align-items: center;
+      }
+
+      .smily ul li {
+          cursor: pointer;
+      }
+
+      .browse-business {
+        background-color: #f5f5f5;
+        padding: 1.5em 0;
+        text-align: center;
+      }
+
+      .browse-business h2 {
+        color: #d32323;
+        margin: 0 0 1em 0;
+      }
+
+      .browse-container {
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .browse {
+        padding: 20px;
+        border: 1px solid #e0e0e0;
+        width: 220px;
+        height: 135px;
+        background-color: white;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .browse:hover, .tabs:hover {
+        box-shadow: 10px 10px 14px -6px rgba(0,0,0,0.75);
+      }
+
+      .browse img {
+          width: auto;
+      }
+
+      .br5, .br6, .br7, .br8 {
+          margin-top: 2.3em;
+      }
+
+      .yelp-mobile-apps h2 {
+          margin: 1em 0 1em 0;
+          color: #d32323;
+      }
+
+      .yelp-mobile-apps {
+        text-align: center;
+        border: 1px solid #e0e0e0;
+      }
+
+      .yelp-mobile-apps-container {
+        display: flex;
+        justify-content: space-between;
+      }
+
+    .tabs {
+        padding: 2em;
+        width: 480px;
+        height: 250px;
+        border: 1px solid #e0e0e0;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+    .yelp-footer {
+        text-align: center;
+        background-color: #f5f5f5;
+        padding-bottom: 2em;
+    }
+
+    .footer-container {
+        text-align: justify;
+        display: flex;
+        width: 1000px;
+        margin: 0 auto;
+        padding: 2em 0;
+    }
+
+    .footer-box {
+        width: 250px;
+    }
+
+    .footer-box p {
+        color: #d32323;
+        font-weight: bold;
+        padding: 1em 0;
+    }
+
+    .ft-text li {
+        padding: 5px 0;
+    }
+
+    .ft-text li a {
+        color: #0073bb;
+        font-weight: 500;
+    }
+
+    .footer-box select {
+        border: none;
+        outline: none;
+        background-color: #f5f5f5;
+    }
+
+    .footer-class {
+        margin-top: 1em;
+    }
+
+    .footer-text {
+        font-size: 14px;
+    }
+
+    footer img {
+        position: relative;
+        top: 3px;
+    }
 }
 
